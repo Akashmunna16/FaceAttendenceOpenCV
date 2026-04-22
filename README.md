@@ -83,7 +83,7 @@ pip install -r requirements.txt
 ### Step 1 — Capture face images
 
 ```bash
-python 1_capture_faces.py
+python capture_faces.py
 ```
 
 - Enter the person's name when prompted
@@ -93,7 +93,7 @@ python 1_capture_faces.py
 ### Step 2 — Train the model
 
 ```bash
-python 2_train_model.py
+python train_model.py
 ```
 
 - Reads all images from `dataset/`
@@ -103,7 +103,7 @@ python 2_train_model.py
 ### Step 3 — Start live recognition
 
 ```bash
-python 3_recognize.py
+python recognize.py
 ```
 
 - Opens webcam feed
