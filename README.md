@@ -53,7 +53,7 @@ face_attendance/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/face_attendance.git
+git clone https://github.com/Akashmunna16/face_attendance.git
 cd face_attendance
 ```
 
@@ -87,7 +87,7 @@ python capture_faces.py
 ```
 
 - Enter the person's name when prompted
-- Look at the webcam — 50 images are auto-captured
+- Look at the webcam — 54 images are auto-captured ( can be changed in capture_faces.py )
 - Repeat for every person you want to register
 
 ### Step 2 — Train the model
